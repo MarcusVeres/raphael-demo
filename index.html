@@ -1,0 +1,94 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: #FAFAFA;
+        }
+        svg {
+            border: 1px solid #CCC;
+            margin: 10px;
+        }
+        .rect {
+            /*fill: red;*/
+        }
+        #play {
+            fill:red;
+        }
+
+        #canvas {
+        }
+        #canvas-wrapper {
+            background: teal;
+            text-align: center;
+        }
+
+        #sidebar {
+            padding: 10px;
+            background: #EEE;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="sidebar">
+                    <form id="properties">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">ID</span>
+                                <input type="text" class="form-control" name="id">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">X Pos</span>
+                                <input type="text" class="form-control" name="x-pos">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">Y Pos</span>
+                                <input type="text" class="form-control" name="y-pos">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">Width</span>
+                                <input type="text" class="form-control" name="width">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon">Height</span>
+                                <input type="text" class="form-control" name="height">
+                            </div>
+                        </div>
+                    </form>
+                <div class="clearfix"></div>
+                </div>
+            </div>
+            <div id="canvas-wrapper" class="col-md-9">
+                <div id="canvas"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="temp7.js"></script>
+
+</body>
+</html>
+
